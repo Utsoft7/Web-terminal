@@ -52,7 +52,7 @@ function router(cmd) {
       printLines(about, "color2 margin", 80);
       break;
 
-    case "cat  social":
+    case "cat social":
       printLines(social, "color2 margin", 80);
       break;
 
