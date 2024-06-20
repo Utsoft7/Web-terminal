@@ -2,6 +2,10 @@ const linkedin = "https://www.linkedin.com/in/utkarsh-kumar-a42028251/";
 const github = "https://github.com/Utsoft7";
 const email = "mailto:phoenix.fireup7845@gmail.com";
 const twitter = "https://x.com/Resilient_Ut?t=SS54xnX__PPyOAh3JfiHYQ&s=35";
+const HackerRank = "https://www.hackerrank.com/profile/kumar_utkarsh_11";
+const leetcode = "https://leetcode.com/u/ut2sonic/";
+const replit = "https://replit.com/@Utsoft7";
+
 var today = new Date();
 
 about = [
@@ -37,19 +41,19 @@ banner = [
   " $$$$$$/     $$$$/  $$/   $$/  $$$$$$$/ $$/       $$$$$$$/  $$/   $$/",
 
   "<br>",
-  '<span class="color2">Welcome to my Terminal Website</span>',
+  '<span class="color2">Welcome to My Terminal Website</span>',
   '<span class="color2">For a list of available commands, type</span> <span class="command">\'help\'</span><span class="color2">.</span>',
-  '<span class="color2">To know more about the contents,</span> <span class="command">type \'cat\' followed by what you want to know </span><span class="color2">.</span>',
+  '<span class="color2">To know more about the contents,</span> <span class="command">type \'cat\'with the name of section or just simply type the contents name you want to explore more</span><span class="color2">.</span>',
 
   // '<span class="color2"></span>',
   "<br>",
 ];
-
-help = [
+const help = [
   "<br>",
   '👦🏻  <span class="command">About</span>          About Me',
   '🌏  <span class="command">Social</span>         Display social networks',
   '🏗  <span class="command">Projects</span>        View coding projects',
+  '🔗  <span class="command">Links</span>          View My coding profiles',
   '📧  <span class="command">Email</span>          Reach me through email',
   '🧹  <span class="command">Clear</span>          Clear the terminal',
   '❓  <span class="command">Help</span>           Open the help menu',
@@ -57,7 +61,6 @@ help = [
   '👋  <span class="command">Exit</span>           Close the tab and exit',
   "<br>",
 ];
-
 social = [
   "<br>",
   "Enter the name of any of the following or simply click the links...",
@@ -91,5 +94,23 @@ projects = [
   //'<span class="command">4. Old Portfolio Website (This Website)</span>',
   "<br>",*/
   'Click the following links to access all my projects: <a href = "https://github.com/Utsoft7" target="_blank">(Github)</a>',
+  "<br>",
+];
+links = [
+  "<br>",
+  "Enter the name of any of the following or simply click the links...",
+  "<br>",
+  'HackerRank       <a href="' +
+    HackerRank +
+    '" target="_blank">HackerRank/kumar_utkarsh_11' +
+    "</a>",
+  'Leetcode         <a href="' +
+    leetcode +
+    '" target="_blank">leetcode/ut2sonic' +
+    "</a>",
+  'Replit        <a href="' +
+    replit +
+    '" target="_blank">   replit/Utsoft7' +
+    "</a>",
   "<br>",
 ];
