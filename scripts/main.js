@@ -49,15 +49,23 @@ function router(cmd) {
       break;
 
     case "cat about":
+    case "about":
       printLines(about, "color2 margin", 80);
       break;
 
     case "cat social":
+    case "social":
       printLines(social, "color2 margin", 80);
       break;
 
     case "cat projects":
+    case "projects":
       printLines(projects, "color2 margin", 80);
+      break;
+
+    case "cat links":
+    case "links":
+      printLines(links, "color2 margin", 80);
       break;
 
     case "cat banner":
@@ -71,6 +79,7 @@ function router(cmd) {
       break;
 
     case "cat email":
+    case "email":
       addLine(
         'Opening mailto:<a href="mailto:phoenix.fireup7845@gmail.com">phoenix.fireup7845@gmail.com</a>...',
         "color2",
@@ -141,6 +150,21 @@ function router(cmd) {
       openNewTab(twitter);
       break;
 
+    case "HackerRank":
+      addLine("Opening HackerRank...", "color2", 0);
+      openNewTab(HackerRank);
+      break;
+
+    case "Leetcode":
+      addLine("Opening leetcode...", "color2", 0);
+      openNewTab(leetcode);
+      break;
+
+    case "Replit":
+      addLine("Opening replit...", "color2", 0);
+      openNewTab(replit);
+      break;
+
     // case "instagram":
     //     addLine("Opening Instagram...", "color2", 0);
     //     openNewTab(instagram);
@@ -171,9 +195,10 @@ function router(cmd) {
       break;
 
     case "exit":
+      window.opener = null;
       window.close();
       addLine(
-        "If the window doesn't close, it might be because of a safety feature! Close the tab manually!",
+        "If the window doesn't close, it might be because of a safety feature Close the tab manually!",
         "color2",
         0
       );
