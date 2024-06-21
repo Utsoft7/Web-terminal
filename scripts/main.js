@@ -150,17 +150,17 @@ function router(cmd) {
       openNewTab(twitter);
       break;
 
-    case "HackerRank":
+    case "hackerrank":
       addLine("Opening HackerRank...", "color2", 0);
       openNewTab(HackerRank);
       break;
 
-    case "Leetcode":
+    case "leetcode":
       addLine("Opening leetcode...", "color2", 0);
       openNewTab(leetcode);
       break;
 
-    case "Replit":
+    case "replit":
       addLine("Opening replit...", "color2", 0);
       openNewTab(replit);
       break;
