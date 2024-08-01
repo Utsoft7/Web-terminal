@@ -5,6 +5,8 @@ const twitter = "https://x.com/Resilient_Ut?t=SS54xnX__PPyOAh3JfiHYQ&s=35";
 const HackerRank = "https://www.hackerrank.com/profile/kumar_utkarsh_11";
 const leetcode = "https://leetcode.com/u/ut2sonic/";
 const replit = "https://replit.com/@Utsoft7";
+const cv =
+  "https://drive.google.com/file/d/16Wt6nkehSF5Mhj97_j9P4bBHR7UqtLgJ/view?usp=drivesdk";
 
 var today = new Date();
 
@@ -21,6 +23,8 @@ about = [
   "Outside of the professional space, I love playing TableTennis and casual PC Gaming.",
   "<br>",
   "Hope you explore and enjoy this Website! 🙏🏻",
+  "<br>",
+  "If you want to know more about me then have a look at my CV ",
   "<br>",
 ];
 
@@ -43,7 +47,7 @@ banner = [
   "<br>",
   '<span class="color2">Welcome to My Terminal Website</span>',
   '<span class="color2">For a list of available commands, type</span> <span class="command">\'help\'</span><span class="color2">.</span>',
-  '<span class="color2">To know more about the contents,</span> <span class="command">type \'cat\'with the name of section or just simply type the contents name you want to explore more</span><span class="color2">.</span>',
+  '<span class="color2">To know more about the contents,</span><span class="command">type\'cat\'with the name of section or just simply type the contents name you want to explore more</span><span class="color2">.</span>',
 
   // '<span class="color2"></span>',
   "<br>",
@@ -55,6 +59,7 @@ const help = [
   '🏗  <span class="command">Projects</span>        View coding projects',
   '🔗  <span class="command">Links</span>          View My coding profiles',
   '📧  <span class="command">Email</span>          Reach me through email',
+  '📄  <span class="command">Cv</span>             View My CV',
   '🧹  <span class="command">Clear</span>          Clear the terminal',
   '❓  <span class="command">Help</span>           Open the help menu',
   '🕰  <span class="command">History</span>         View command history',
