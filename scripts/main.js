@@ -165,6 +165,12 @@ function router(cmd) {
       openNewTab(replit);
       break;
 
+    case "CV":
+    case "cv":
+      addLine("Opening Utkarsh CV...", "color2", 0);
+      openNewTab(cv);
+      break;
+
     // case "instagram":
     //     addLine("Opening Instagram...", "color2", 0);
     //     openNewTab(instagram);
