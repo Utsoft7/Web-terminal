@@ -49,9 +49,9 @@ banner = [
   '<span class="color2">For a list of available commands, type</span> <span class="command">\'help\'</span><span class="color2">.</span>',
   '<span class="color2">To know more about the contents,</span><span class="command">type\'cat\'with the name of section or just simply type the contents name you want to explore more</span><span class="color2">.</span>',
 
-  // '<span class="color2"></span>',
   "<br>",
 ];
+
 const help = [
   "<br>",
   '👦🏻  <span class="command">About</span>          About Me',
@@ -66,6 +66,7 @@ const help = [
   '👋  <span class="command">Exit</span>           Close the tab and exit',
   "<br>",
 ];
+
 social = [
   "<br>",
   "Enter the name of any of the following or simply click the links...",
@@ -84,25 +85,17 @@ social = [
     "</a>",
   "<br>",
 ];
+
 projects = [
   "<br>",
   '<span class="command">Still Working on them, WORK IN PROGRESS </span>',
-  '<span class="command">1. SudokuSolver</span>',
-  'Click the following links to access all my projects: <a href = "https://utsoft7.github.io/sudoku-solver/"</a>',
+  
+  '<span class="command">1. SudokuSolver</span> <a href="https://utsoft7.github.io/sudoku-solver/"></a>',
   "<br>",
-  "<br>",
-  /*
-  '<span class="command">2. Mental Health Fitness Tracker',
-  "<br>",
-  "<br>",
-  '<span class="command">3. Portfolio Website',
-  "<br>",
-  "<br>",
-  //'<span class="command">4. Old Portfolio Website (This Website)</span>',
-  "<br>",*/
-  'Click the following links to access all my projects: <a href = "https://github.com/Utsoft7" target="_blank">(Github)</a>',
+  'Click the following links to access all my projects: <a href="https://github.com/Utsoft7" target="_blank">(Github)</a>',
   "<br>",
 ];
+
 links = [
   "<br>",
   "Enter the name of any of the following or simply click the links...",
