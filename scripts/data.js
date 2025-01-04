@@ -87,9 +87,11 @@ social = [
 projects = [
   "<br>",
   '<span class="command">Still Working on them, WORK IN PROGRESS </span>',
-  /*'<span class="command">1. WeatherPedia</span>',
+  '<span class="command">1. SudokuSolver</span>',
+  'Click the following links to access all my projects: <a href = "https://utsoft7.github.io/sudoku-solver/"</a>',
   "<br>",
   "<br>",
+  /*
   '<span class="command">2. Mental Health Fitness Tracker',
   "<br>",
   "<br>",
