@@ -5,8 +5,7 @@ const twitter = "https://x.com/Resilient_Ut?t=SS54xnX__PPyOAh3JfiHYQ&s=35";
 const HackerRank = "https://www.hackerrank.com/profile/kumar_utkarsh_11";
 const leetcode = "https://leetcode.com/u/ut2sonic/";
 const replit = "https://replit.com/@Utsoft7";
-const cv =
-  "https://drive.google.com/file/d/16Wt6nkehSF5Mhj97_j9P4bBHR7UqtLgJ/view?usp=drivesdk";
+const cv ="https://drive.google.com/file/d/16Wt6nkehSF5Mhj97_j9P4bBHR7UqtLgJ/view?usp=drivesdk";
 
 var today = new Date();
 
