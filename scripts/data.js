@@ -88,7 +88,6 @@ social = [
 projects = [
   "<br>",
   '<span class="command">Still Working on them, WORK IN PROGRESS </span>',
-  
   '<span class="command">1. SudokuSolver</span> <a href="https://utsoft7.github.io/sudoku-solver/"></a>',
   "<br>",
   'Click the following links to access all my projects: <a href="https://github.com/Utsoft7" target="_blank">(Github)</a>',
