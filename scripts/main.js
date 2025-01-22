@@ -176,6 +176,13 @@ function router(cmd) {
     //     openNewTab(instagram);
     //     break;
 
+      case "SudokuSolver":
+      case "sudokusolver":
+      addLine("Opening SudokuSolver...", "color2", 0);
+      openNewTab(SudokuSolver);
+      break;
+      
+
     case "ls":
       addLine(
         "So you are a real programmer at heart ❤️. PS. It's just a website! Dude<br>",
